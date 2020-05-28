@@ -35,7 +35,7 @@ assign   SAC_access_penalty       9000 # 1 m like 9 km of normal roas. A costfac
                                        # CF=9999+ means a forbidden road, but if equal to 9999, navigation hints considered.
                                        # 
 assign  SAC_K1 0.05                    # Penalizing of SAC levels below preferred 
-assign  SAC_K2 0.6                     # Penalizing of SAC levels above preferred  
+assign  SAC_K2 0.3                     # Penalizing of SAC levels above preferred  
 
 #orientation/decision penalties, not used for preferred hiking routes
 assign   turncost_value           0 # not used now
